@@ -1,4 +1,5 @@
 import bcrypt from "bcryptjs";
+/*
 import { createClient } from "@supabase/supabase-js";
 import invariant from "tiny-invariant";
 
@@ -64,3 +65,4 @@ export async function verifyLogin(email: string, password: string) {
 
   return profile;
 }
+*/

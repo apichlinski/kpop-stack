@@ -1,7 +1,8 @@
 import { createCookieSessionStorage, redirect } from "@remix-run/node";
 import invariant from "tiny-invariant";
-import { getProfileById } from "./models/user.server";
+//import { getProfileById } from "./models/user.server";
 
+/*
 invariant(
   process.env.SESSION_SECRET,
   "SESSION_SECRET must be set in your environment variables."
@@ -48,6 +49,7 @@ export async function getUser(request: Request) {
  * redirect them to the login page. After login, take them to
  * the original page they wanted to get to.
  */
+/*
 export async function requireUserId(
   request: Request,
   redirectTo: string = new URL(request.url).pathname
@@ -103,3 +105,4 @@ export async function logout(request: Request) {
     },
   });
 }
+*/

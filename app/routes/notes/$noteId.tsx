@@ -3,7 +3,7 @@ import { json, redirect } from "@remix-run/node";
 import { Form, useLoaderData } from "@remix-run/react";
 import type { Note } from "~/models/note.server";
 import { deleteNote, getNote } from "~/models/note.server";
-import { requireUserId } from "~/session.server";
+//import { requireUserId } from "~/session.server";
 import invariant from "tiny-invariant";
 
 type LoaderData = {
